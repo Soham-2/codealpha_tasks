@@ -1,0 +1,402 @@
+[
+    {
+        "question": "What is blockchain?",
+        "answer": "Blockchain is a distributed, decentralized ledger technology that records transactions across a network of computers. Each transaction is grouped into a block, which is cryptographically linked to the previous block, forming a chain that is immutable and transparent."
+    },
+    {
+        "question": "How does blockchain work?",
+        "answer": "Blockchain works by collecting transactions into blocks. Each block contains a cryptographic hash of the previous block, creating a chain. Nodes in the network validate and record these blocks, ensuring no single entity can manipulate the data."
+    },
+    {
+        "question": "What is a blockchain block?",
+        "answer": "A blockchain block is a data structure containing a list of transactions, a timestamp, a reference to the previous block's hash, and a hash of its own data. Blocks are linked together chronologically to form the blockchain."
+    },
+    {
+        "question": "What is a cryptocurrency?",
+        "answer": "Cryptocurrency is a digital or virtual form of currency that uses cryptography for security. It operates on blockchain technology and is decentralized, meaning no central bank or government controls it. Bitcoin and Ethereum are popular examples."
+    },
+    {
+        "question": "What is Bitcoin?",
+        "answer": "Bitcoin is the first and most well-known cryptocurrency created in 2009. It operates on a decentralized blockchain network and uses proof-of-work consensus mechanism. Bitcoin has a maximum supply of 21 million coins."
+    },
+    {
+        "question": "What is Ethereum?",
+        "answer": "Ethereum is a blockchain platform that enables smart contracts and decentralized applications (dApps). It uses Ether (ETH) as its native cryptocurrency. Ethereum is more programmable than Bitcoin and supports complex transactions."
+    },
+    {
+        "question": "What is a smart contract?",
+        "answer": "A smart contract is a self-executing program stored on a blockchain that automatically executes when specific conditions are met. It eliminates intermediaries and ensures transparent, tamper-proof execution of agreements."
+    },
+    {
+        "question": "What is consensus mechanism?",
+        "answer": "A consensus mechanism is a protocol that allows network participants to agree on the current state of the blockchain. Common mechanisms include Proof of Work (PoW) and Proof of Stake (PoS), which validate new transactions and blocks."
+    },
+    {
+        "question": "What is Proof of Work?",
+        "answer": "Proof of Work (PoW) is a consensus mechanism where miners solve complex mathematical puzzles to validate transactions and create new blocks. The first miner to solve the puzzle adds the block to the blockchain and receives rewards."
+    },
+    {
+        "question": "What is Proof of Stake?",
+        "answer": "Proof of Stake (PoS) is a consensus mechanism where validators are chosen based on the amount of cryptocurrency they hold and are willing to stake. It's more energy-efficient than Proof of Work and is used by Ethereum 2.0."
+    },
+    {
+        "question": "What is mining in blockchain?",
+        "answer": "Mining is the process of validating transactions and adding new blocks to the blockchain. Miners use computational power to solve mathematical puzzles and are rewarded with newly created cryptocurrencies and transaction fees."
+    },
+    {
+        "question": "What is a hash function?",
+        "answer": "A hash function is a mathematical algorithm that converts input data into a fixed-size string of characters. In blockchain, hash functions ensure data integrity and create the links between blocks using cryptographic hashes."
+    },
+    {
+        "question": "What is a private key?",
+        "answer": "A private key is a secret cryptographic key that allows the owner to sign transactions and prove ownership of cryptocurrency. It must be kept secure and never shared, as anyone with access can control the associated funds."
+    },
+    {
+        "question": "What is a public key?",
+        "answer": "A public key is a cryptographic key derived from the private key that can be shared openly. It's used to verify signatures and receive funds. The relationship between public and private keys ensures secure transactions."
+    },
+    {
+        "question": "What is a wallet in blockchain?",
+        "answer": "A blockchain wallet is software or hardware that stores public and private keys. It allows users to send and receive cryptocurrencies. Wallets can be hot (online) or cold (offline) for varying levels of security."
+    },
+    {
+        "question": "What is a public blockchain?",
+        "answer": "A public blockchain is a decentralized network where anyone can participate, view transactions, and validate blocks. Bitcoin and Ethereum are examples. Public blockchains offer transparency but may be slower due to widespread participation."
+    },
+    {
+        "question": "What is a private blockchain?",
+        "answer": "A private blockchain is a restricted network where only authorized participants can access and validate transactions. It's faster and more controlled than public blockchains but sacrifices some decentralization benefits."
+    },
+    {
+        "question": "What is a permissioned blockchain?",
+        "answer": "A permissioned blockchain requires users to have permission to join and participate. It combines elements of both public and private blockchains, offering controlled access while maintaining some degree of transparency among authorized participants."
+    },
+    {
+        "question": "What are decentralized applications (dApps)?",
+        "answer": "dApps are applications built on blockchain networks that operate without a central authority. They run on smart contracts and provide services like finance, gaming, and social media while giving users control over their data."
+    },
+    {
+        "question": "What is decentralized finance (DeFi)?",
+        "answer": "DeFi refers to financial services built on blockchain networks without traditional intermediaries. It includes lending, borrowing, trading, and yield farming. DeFi offers higher accessibility but comes with increased risk."
+    },
+    {
+        "question": "What is an NFT?",
+        "answer": "An NFT (Non-Fungible Token) is a unique digital asset on the blockchain that represents ownership of a specific item, such as art, collectibles, or real estate. Each NFT is indivisible and cannot be replaced by another identical token."
+    },
+    {
+        "question": "What is a token?",
+        "answer": "A token is a digital representation of value or utility on a blockchain. Tokens can represent cryptocurrencies, ownership rights, access permissions, or rewards. They are created and managed through smart contracts."
+    },
+    {
+        "question": "What is token economics (Tokenomics)?",
+        "answer": "Tokenomics refers to the economic design of a cryptocurrency or token, including supply, distribution, incentives, and use cases. It determines the token's value, adoption rate, and sustainability within its ecosystem."
+    },
+    {
+        "question": "What is a fork in blockchain?",
+        "answer": "A fork is a change to the blockchain protocol. A soft fork is backward-compatible; a hard fork requires all participants to upgrade and creates a new version. Hard forks can split a blockchain into two separate cryptocurrencies."
+    },
+    {
+        "question": "What is a blockchain explorer?",
+        "answer": "A blockchain explorer is a tool that allows users to view and search transactions, blocks, and addresses on a blockchain. It provides transparency by displaying the complete history of blockchain activity in a user-friendly interface."
+    },
+    {
+        "question": "What is a transaction in blockchain?",
+        "answer": "A transaction is a record of the transfer of value or data between users on a blockchain. Each transaction contains details like sender, receiver, amount, and timestamp, and must be validated and recorded in a block."
+    },
+    {
+        "question": "What is transaction confirmation?",
+        "answer": "Transaction confirmation refers to the number of times a transaction has been included in a blockchain block after it was first broadcast. More confirmations indicate greater security and finality of the transaction."
+    },
+    {
+        "question": "What is a merkle tree?",
+        "answer": "A merkle tree is a data structure used in blockchain that organizes transactions hierarchically. It creates a single hash (merkle root) that represents all transactions in a block, allowing efficient verification of transaction integrity."
+    },
+    {
+        "question": "What is double spending?",
+        "answer": "Double spending is the risk of spending the same cryptocurrency twice. Blockchain prevents this through consensus mechanisms and transaction validation, ensuring that each coin can only be spent once."
+    },
+    {
+        "question": "What is a 51% attack?",
+        "answer": "A 51% attack occurs when a single entity controls over 50% of a blockchain network's computational power. This allows them to manipulate transactions and potentially create fraudulent blocks, though it's extremely costly for major blockchains."
+    },
+    {
+        "question": "What is immutability in blockchain?",
+        "answer": "Immutability means that once data is recorded on a blockchain, it cannot be altered or deleted. This is achieved through cryptographic hashing and the distributed nature of the network, ensuring data integrity and transparency."
+    },
+    {
+        "question": "What is transparency in blockchain?",
+        "answer": "Transparency in blockchain means that all network participants can view and verify transactions and blocks. While transactions are visible, the identities of users may remain pseudonymous, balancing privacy with accountability."
+    },
+    {
+        "question": "What is scalability in blockchain?",
+        "answer": "Scalability refers to a blockchain's ability to handle increasing numbers of transactions efficiently. Solutions include layer-2 networks, sharding, and sidechains that improve transaction throughput without compromising security."
+    },
+    {
+        "question": "What is a node in blockchain?",
+        "answer": "A node is a computer that maintains a complete copy of the blockchain and validates transactions. Nodes work together to maintain the network's integrity and consensus. Running a node helps decentralize the network."
+    },
+    {
+        "question": "What is a full node?",
+        "answer": "A full node is a computer that stores the entire blockchain and independently validates all transactions and blocks. Full nodes are essential for blockchain security and are the most resource-intensive type of node."
+    },
+    {
+        "question": "What is a light node?",
+        "answer": "A light node stores only blockchain headers rather than the complete blockchain. It relies on full nodes for validation and is suitable for devices with limited storage and computational power, like mobile phones."
+    },
+    {
+        "question": "What is staking in blockchain?",
+        "answer": "Staking is the process of holding cryptocurrency in a wallet to support blockchain operations and earn rewards. Stakers are chosen to validate transactions based on their stake size, and they earn new coins as incentive."
+    },
+    {
+        "question": "What is yield farming?",
+        "answer": "Yield farming is a DeFi strategy where users deposit cryptocurrency into liquidity pools or lending protocols to earn rewards or interest. Farmers move their funds across different protocols seeking the highest returns."
+    },
+    {
+        "question": "What is a liquidity pool?",
+        "answer": "A liquidity pool is a collection of cryptocurrency held in a smart contract that enables decentralized exchanges. Users deposit equal values of two assets and earn fees from trades executed against their pool."
+    },
+    {
+        "question": "What is an Initial Coin Offering (ICO)?",
+        "answer": "An ICO is a fundraising method where a new cryptocurrency project sells tokens to investors. It allows projects to raise capital early, though many ICOs proved to be scams or unsuccessful investments."
+    },
+    {
+        "question": "What is an Initial DEX Offering (IDO)?",
+        "answer": "An IDO is a fundraising method where a project launches tokens directly on a decentralized exchange. IDOs provide better security and liquidity than ICOs and are increasingly popular in DeFi projects."
+    },
+    {
+        "question": "What is a DAO?",
+        "answer": "A DAO (Decentralized Autonomous Organization) is an organization governed by smart contracts and its community members rather than a central authority. Members hold governance tokens that give voting power on organizational decisions."
+    },
+    {
+        "question": "What is a sidechain?",
+        "answer": "A sidechain is a separate blockchain connected to a main blockchain, allowing assets to move between them. Sidechains can have different rules and faster transaction speeds while maintaining security links to the main chain."
+    },
+    {
+        "question": "What is layer 2 technology?",
+        "answer": "Layer 2 solutions are protocols built on top of blockchain to increase transaction throughput and reduce costs. Examples include Lightning Network and Polygon, which process transactions faster before settling on the main chain."
+    },
+    {
+        "question": "What is sharding?",
+        "answer": "Sharding is a scalability technique that divides the blockchain into smaller partitions (shards), each processing transactions independently. This increases overall network throughput while maintaining security through cross-shard communication."
+    },
+    {
+        "question": "What is a whitepaper in blockchain?",
+        "answer": "A blockchain whitepaper is a detailed document that explains a cryptocurrency or blockchain project's technology, purpose, and roadmap. It provides technical information for investors and developers to understand the project."
+    },
+    {
+        "question": "What is gas in blockchain?",
+        "answer": "Gas is a unit of computational work required to execute transactions or smart contracts on blockchains like Ethereum. Users pay gas fees in the network's native cryptocurrency to incentivize miners or validators."
+    },
+    {
+        "question": "What is a block reward?",
+        "answer": "A block reward is the incentive given to miners or validators for successfully creating and adding a new block to the blockchain. It typically includes newly minted cryptocurrency plus transaction fees collected from that block."
+    },
+    {
+        "question": "What is a halving event?",
+        "answer": "A halving event is a scheduled reduction of block rewards, typically cutting rewards in half. Bitcoin undergoes halving every 210,000 blocks, which controls inflation and gradually decreases the rate of new coin creation."
+    },
+    {
+        "question": "What is cryptocurrency volatility?",
+        "answer": "Cryptocurrency volatility refers to rapid price fluctuations of digital assets. High volatility is common in crypto markets due to speculative trading, regulatory news, and market sentiment, creating both opportunities and risks."
+    },
+    {
+        "question": "What is market capitalization in crypto?",
+        "answer": "Market capitalization is the total value of a cryptocurrency, calculated by multiplying the current price by the total number of coins in circulation. It indicates the size and popularity of a digital asset."
+    },
+    {
+        "question": "What is a cold wallet?",
+        "answer": "A cold wallet is an offline storage solution for cryptocurrency that provides maximum security. It can be a hardware wallet, paper wallet, or other method that keeps private keys disconnected from the internet."
+    },
+    {
+        "question": "What is a hot wallet?",
+        "answer": "A hot wallet is an online cryptocurrency storage solution that allows quick access and transactions. It's convenient but less secure than cold wallets because it's connected to the internet and vulnerable to hacking."
+    },
+    {
+        "question": "What is a hardware wallet?",
+        "answer": "A hardware wallet is a physical device that securely stores cryptocurrency private keys offline. Examples include Ledger and Trezor. Hardware wallets protect against online theft while still allowing secure transactions."
+    },
+    {
+        "question": "What is a paper wallet?",
+        "answer": "A paper wallet is a physical document containing cryptocurrency private and public keys, usually printed as QR codes. It provides offline storage but requires careful handling to prevent damage or loss."
+    },
+    {
+        "question": "What is the blockchain trilemma?",
+        "answer": "The blockchain trilemma refers to the difficulty of simultaneously achieving three goals: decentralization, security, and scalability. Most blockchains prioritize two over the third, and new projects try to balance all three."
+    },
+    {
+        "question": "What is cryptocurrency mining difficulty?",
+        "answer": "Mining difficulty is the computational challenge required to mine new blocks in a proof-of-work blockchain. It automatically adjusts based on network hash rate to maintain consistent block creation time."
+    },
+    {
+        "question": "What is cryptocurrency regulation?",
+        "answer": "Cryptocurrency regulation involves government rules and laws governing digital assets. Regulations vary by country and address taxation, trading, exchanges, and consumer protection in the crypto market."
+    },
+    {
+        "question": "What is KYC in blockchain?",
+        "answer": "KYC (Know Your Customer) is a verification process where platforms confirm user identities. It's used by exchanges and DeFi services for regulatory compliance and to prevent fraud and money laundering."
+    },
+    {
+        "question": "What is AML in blockchain?",
+        "answer": "AML (Anti-Money Laundering) refers to regulations and practices designed to prevent illegal financial activities. Blockchain platforms implement AML measures through transaction monitoring and user verification."
+    },
+    {
+        "question": "What is a blockchain fork?",
+        "answer": "A blockchain fork occurs when the protocol rules change, creating a divergence in the blockchain. Forks can be soft (backward-compatible) or hard (requiring all nodes to upgrade), sometimes creating separate cryptocurrencies."
+    },
+    {
+        "question": "What is the Lightning Network?",
+        "answer": "The Lightning Network is a layer 2 payment protocol built on Bitcoin that enables fast, low-cost transactions. It allows users to open payment channels and transact without touching the main blockchain."
+    },
+    {
+        "question": "What is Polygon?",
+        "answer": "Polygon is a layer 2 scaling solution for Ethereum that enables fast and cheap transactions. It's a framework for building and connecting Ethereum-compatible blockchains with lower fees and higher speed."
+    },
+    {
+        "question": "What is cross-chain interaction?",
+        "answer": "Cross-chain interaction enables different blockchains to communicate and exchange value. It allows users to move assets between blockchains and access services across multiple networks, increasing interoperability."
+    },
+    {
+        "question": "What is an atomic swap?",
+        "answer": "An atomic swap is a peer-to-peer exchange of cryptocurrencies across different blockchains without intermediaries. It uses smart contracts to ensure both parties fulfill their obligations or the swap is reversed."
+    },
+    {
+        "question": "What is a blockchain oracle?",
+        "answer": "A blockchain oracle is a service that provides external data to smart contracts. Since blockchains cannot access off-chain information, oracles fetch real-world data and feed it into smart contracts."
+    },
+    {
+        "question": "What is Chainlink?",
+        "answer": "Chainlink is a decentralized oracle network that provides reliable external data to smart contracts. It's widely used in DeFi to fetch price feeds, weather data, and other off-chain information securely."
+    },
+    {
+        "question": "What is interoperability in blockchain?",
+        "answer": "Interoperability is the ability of different blockchains to communicate and share data. It enables asset transfers, contract calls, and information exchange across separate blockchain networks."
+    },
+    {
+        "question": "What is a wrapped token?",
+        "answer": "A wrapped token is a cryptocurrency token that represents another asset on a different blockchain. For example, wrapped Bitcoin (WBTC) represents Bitcoin on the Ethereum network, enabling cross-chain asset transfers."
+    },
+    {
+        "question": "What is a stablecoin?",
+        "answer": "A stablecoin is a cryptocurrency designed to maintain a stable price, usually pegged to a fiat currency like the US Dollar. Examples include USDC, DAI, and USDT, providing price stability for crypto transactions."
+    },
+    {
+        "question": "What is a collateralized stablecoin?",
+        "answer": "A collateralized stablecoin is backed by a reserve of assets, typically fiat currency or cryptocurrency. Users can redeem the stablecoin for the backing asset, ensuring price stability and trust in the token."
+    },
+    {
+        "question": "What is a decentralized stablecoin?",
+        "answer": "A decentralized stablecoin like DAI maintains its value through smart contracts and collateral rather than centralized reserves. Users deposit cryptocurrency as collateral to mint stablecoins, earning incentives for maintaining the system."
+    },
+    {
+        "question": "What is MEV in blockchain?",
+        "answer": "MEV (Maximal Extractable Value) is the maximum profit miners or validators can gain by reordering or including specific transactions. It can lead to front-running and sandwich attacks on decentralized exchanges."
+    },
+    {
+        "question": "What is front-running?",
+        "answer": "Front-running is when a participant sees pending transactions and places their own transaction ahead to profit. It's a form of market manipulation possible on public blockchains like Ethereum."
+    },
+    {
+        "question": "What is a sandwich attack?",
+        "answer": "A sandwich attack occurs when an attacker places a transaction before and after a victim's transaction to exploit price differences. The attacker profits while the victim suffers slippage on their transaction."
+    },
+    {
+        "question": "What is flash lending?",
+        "answer": "Flash lending allows users to borrow cryptocurrency without collateral, provided they repay within the same transaction block. It enables arbitrage and liquidations but has been exploited for flash loan attacks."
+    },
+    {
+        "question": "What is a rug pull?",
+        "answer": "A rug pull is a scam where project developers suddenly abandon a cryptocurrency project and take investor funds. It's common in low-quality tokens and ICOs, resulting in total loss of investment."
+    },
+    {
+        "question": "What is a pump and dump?",
+        "answer": "A pump and dump is a market manipulation scheme where prices are artificially inflated through promotion, then insiders sell at the peak. Other investors suffer losses as prices collapse."
+    },
+    {
+        "question": "What is cryptocurrency lending?",
+        "answer": "Cryptocurrency lending allows users to lend their digital assets to borrowers and earn interest. Platforms like Aave and Compound facilitate loans and provide attractive returns, though borrowers must provide collateral."
+    },
+    {
+        "question": "What is a Ponzi scheme in crypto?",
+        "answer": "A Ponzi scheme in crypto promises high returns by using new investor funds to pay earlier investors. These schemes eventually collapse when new investment dries up, causing later investors to lose money."
+    },
+    {
+        "question": "What is a blockchain use case?",
+        "answer": "Blockchain use cases are practical applications of blockchain technology beyond cryptocurrencies. They include supply chain tracking, digital identity, healthcare records, intellectual property, voting, and legal contracts."
+    },
+    {
+        "question": "What is blockchain in supply chain?",
+        "answer": "Blockchain in supply chain creates transparent, immutable records of product movement from origin to consumer. It improves traceability, reduces counterfeits, and increases trust between supply chain participants."
+    },
+    {
+        "question": "What is blockchain for healthcare?",
+        "answer": "Blockchain in healthcare enables secure patient data management, drug traceability, and medical research. It allows patients to control their health records and ensures data integrity and privacy."
+    },
+    {
+        "question": "What is blockchain for voting?",
+        "answer": "Blockchain-based voting systems provide transparent, secure, and verifiable elections. They prevent voter fraud, enable remote voting, and ensure that vote counts cannot be altered or manipulated."
+    },
+    {
+        "question": "What is digital identity on blockchain?",
+        "answer": "Digital identity on blockchain allows individuals to control their personal data and prove identity without central authorities. It enables access to financial services, government benefits, and verification of credentials."
+    },
+    {
+        "question": "What is self-sovereign identity?",
+        "answer": "Self-sovereign identity allows individuals to control their digital identity and personal data without relying on centralized authorities. It's built on blockchain and gives users full ownership and portability of their identity."
+    },
+    {
+        "question": "What is a decentralized identifier?",
+        "answer": "A decentralized identifier (DID) is a globally unique identifier owned and controlled by the subject. DIDs enable self-sovereign identity and are verified using blockchain without requiring a central registry."
+    },
+    {
+        "question": "What is Web3?",
+        "answer": "Web3 refers to the third generation of the internet built on decentralized technologies like blockchain. It shifts power from centralized platforms to users, enabling ownership of digital assets and data."
+    },
+    {
+        "question": "What is the metaverse?",
+        "answer": "The metaverse is a persistent virtual world where users interact through avatars. Blockchain and NFTs enable virtual asset ownership, making the metaverse a space for gaming, commerce, and social interaction."
+    },
+    {
+        "question": "What is a DAO governance token?",
+        "answer": "A governance token represents voting power in a decentralized autonomous organization. Holders can propose and vote on changes to the DAO's rules, treasury allocation, and strategic direction."
+    },
+    {
+        "question": "What is quadratic voting?",
+        "answer": "Quadratic voting is a voting system where the cost of voting increases quadratically with the number of votes. It prevents wealthy participants from dominating decisions while encouraging truthful expression of preferences."
+    },
+    {
+        "question": "What is cryptocurrency arbitrage?",
+        "answer": "Cryptocurrency arbitrage exploits price differences of the same asset across different exchanges. Traders buy low on one exchange and sell high on another, profiting from inefficiencies in the market."
+    },
+    {
+        "question": "What is algorithmic trading in crypto?",
+        "answer": "Algorithmic trading uses computer programs to automatically buy and sell cryptocurrencies based on predetermined rules. It can execute trades faster than humans and exploit market opportunities at scale."
+    },
+    {
+        "question": "What is a blockchain timestamp?",
+        "answer": "A blockchain timestamp records when a transaction or block was created. It's included in each block and creates a chronological record that helps verify the sequence of events on the blockchain."
+    },
+    {
+        "question": "What is blockchain immutability?",
+        "answer": "Blockchain immutability ensures that once data is recorded, it cannot be changed or deleted. This is achieved through cryptographic hashing, where altering any data would invalidate all subsequent blocks."
+    },
+    {
+        "question": "What is a blockchain audit?",
+        "answer": "A blockchain audit is a comprehensive review of a smart contract or blockchain system for security vulnerabilities and bugs. Professional auditors test code for exploits to ensure safety before deployment."
+    },
+    {
+        "question": "What is a security audit?",
+        "answer": "A security audit examines blockchain projects for vulnerabilities, code quality, and compliance with best practices. It helps identify risks and prevents security breaches that could lead to financial loss."
+    },
+    {
+        "question": "What are the future trends in blockchain?",
+        "answer": "Future blockchain trends include quantum-resistant cryptography, improved scalability solutions, mass adoption of central bank digital currencies, enhanced privacy features, and integration with IoT and AI technologies."
+    },
+    {
+        "question": "What is a central bank digital currency (CBDC)?",
+        "answer": "A CBDC is a digital form of fiat currency issued and controlled by a central bank. Unlike cryptocurrencies, CBDCs are backed by governments and aim to modernize payment systems while maintaining monetary policy control."
+    },
+    {
+        "question": "What is the future of blockchain?",
+        "answer": "Blockchain's future includes increased adoption in enterprise and government, improved scalability and sustainability, greater interoperability between chains, and integration with emerging technologies for real-world applications."
+    }
+]
